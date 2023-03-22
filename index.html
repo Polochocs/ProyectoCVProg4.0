@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo2.css" rel="stylesheet" type="text/css">
+    <title>CV PAOLO PAOLETTI</title>
+    <script src="java script/Scripts.js"></script>
+</head>
+
+<body>
+    <!--MENU LATERAL-->
+    <div class="btns">
+        <a href="#personal"><img class="boton" src="img/personal.png" id="pers" onmousemove="enBlanco1()"
+                onmouseleave="enNegro1()" alt="informacion personal"> </a>
+        <a href="#laboral"><img class="boton" src="img/laboral.png" id="labo" onmousemove="enBlanco2()"
+                onmouseleave="enNegro2()" alt="informacion laboral"> </a>
+        <a href="#habilidades"><img class="boton" src="img/habilidades.png" id="habi" onmousemove="enBlanco3()"
+                onmouseleave="enNegro3()" alt="habilidades"> </a>
+        <a href="#educacion"><img class="boton" src="img/estudios.png" id="estu" onmousemove="enBlanco4()"
+                onmouseleave="enNegro4()" alt="estudios"> </a>
+    </div>
+    <!--CONTENIDO DEL CV-->
+    <div class="degrade">
+        <div class="grilla">
+            <div class="intro">
+                <div class="nombres">Paolo Paoletti</div>
+                <div class="logo">
+                    P<span class="color">P</span>
+                </div>
+                <div class="prof">Desarrollador Front-End</div>
+                <div class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt,
+                    nunc non mattis vulputate, ante leo auctor mi, quis lacinia sem mauris ut dui. Vestibulum a dui
+                    malesuada
+                    purus volutpat.</div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <img src="https://randomuser.me/api/portraits/men/13.jpg" class="perfil">
+        </div>
+    </div>
+    <div class="caja" id="personal">
+        <div class="titulo">Información Personal</div>
+        <div class="text">
+            <ul>
+                <li>Edad: 36</li>
+                <li>Residencia: La Plata, Bs. As.</li>
+                <li>Nacimiento: 05/03/86</li>
+                <li>Nacionalidad: Argentina</li>
+                <li>Telefono: 11-123456</li>
+                <li>E-mail: pppp@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="laboral">
+        <div class="titulo">Experiencia Laboral</div>
+        <div class="text">
+            <ul>
+                <li>2017 - 2018 / Wergreg / Lorem ipsum dolor sit amet</li>
+                <li>2018 - 2020 / GRE / Lorem ipsum dolor sit amet</li>
+                <li>2020 - Act. / ING. & Asoc. / Lorem ipsum dolor sit amet</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="habilidades">
+        <div class="titulo">Habilidades</div>
+        <div class="text">
+            <ul>
+                <li>Photoshop</li>
+                <li>Ilustrator</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Git Hub</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="educacion">
+        <div class="titulo">Estudios</div>
+        <div class="text">
+            <ul>
+                <li>2008 - 2013 / Carrera de Marketing / Universidad GH </li>
+                <li>2013 - 2015 / Curso de SEO / Escuela Victor Mercante</li>
+                <li>2017 - 2018/ Seminario intensivo de Marketing / UBA</li>
+                <li>2020 - 2023 / Cursos virtuales de desarrollo front-end</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

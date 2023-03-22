@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+body {
+    font-family: open, sans-serif;
+    margin: 0;
+}
+.degrade {
+    background: linear-gradient(180deg, rgb(221, 202, 172), rgb(255, 255, 255));
+    margin: 0px 0px 200px 80px;
+    max-width: 100%;
+    height: auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 50px 0px 50px;
+}
+.intro {
+    display: block;
+    margin: auto;
+}    
+.redes {
+    font-weight: normal;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #000000; 
+}
+.fa-brands:hover{
+    color: darkgoldenrod;
+}
+.nombres {
+    font-family: "Yellowtail";
+    font-weight:400;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.logo {
+    font-family: "Yellowtail";
+    font-weight:bold;
+    text-shadow: 0 0 35px #000000;
+    font-size: 10rem;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+    margin-bottom: 15px;
+    
+}
+.color {
+    color: #b69f37;
+    font-family: "Yellowtail";
+}
+.prof {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.descripcion {
+    font-family: "Titillium Web";
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.perfil {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 5px;
+    height: auto;
+}
+.caja {
+    background: linear-gradient(180deg, rgb(221, 202, 172), rgb(255, 255, 255));
+    border-radius: 20px;
+    height: auto;
+    max-width: 90%;
+    padding: 50px;
+    margin: 50px 20px 200px 80px;
+}
+.titulo {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Titillium Web";
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+}
+.btns {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+.boton {
+    width: 50px;
+    display: block;
+    padding: 5px;
+}
